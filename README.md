@@ -18,9 +18,10 @@
 <br/>
 <br/>
 
-##  [![codewars](https://www.codewars.com/users/sergio1811x/badges/large)](https://www.codewars.com/users/sergio1811x) 
+[![codewars](https://www.codewars.com/users/sergio1811x/badges/large)](https://www.codewars.com/users/sergio1811x) 
 
 <br/>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sergio1811x)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sergio1811x&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 
