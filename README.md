@@ -1,5 +1,5 @@
 ## Hi there, I'm Sergey <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
-### Frontend developer from saint-petersburg, Russia
+### Frontend developer from Saint-Petersburg, Russia
 
 <br/>
 
@@ -19,3 +19,7 @@
 <br/>
 
 ##  [![codewars](https://www.codewars.com/users/sergio1811x/badges/large)](https://www.codewars.com/users/sergio1811x) 
+
+<br/>
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sergio1811x.)](https://github.com/sergio1811x.)
