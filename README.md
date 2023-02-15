@@ -1,8 +1,6 @@
-## Hi there, I'm <a href="https://github.com/sergio1811x/" target="_blank">Sergey</a> <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/> ### frontend developer from Russia 🇷🇺 , Saint-P
+### Hi there, I'm Sergey <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
+### frontend developer from Russia 🇷🇺 , Saint-P
 
-
-
-frontend developer
 
 <img align="left" alt="HTML5" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
