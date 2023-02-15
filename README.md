@@ -1,9 +1,9 @@
-## Hi there, I'm Sergey <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
+### Hi there, I'm Sergey <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
 ### Frontend developer from Saint-Petersburg, Russia
 
 <br/>
 
-<div>
+###<div>
 <img align="left" alt="HTML5" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="JavaScript" width="35px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
@@ -18,10 +18,10 @@
 <br/>
 <br/>
 
-[![codewars](https://www.codewars.com/users/sergio1811x/badges/large)](https://www.codewars.com/users/sergio1811x) 
+###[![codewars](https://www.codewars.com/users/sergio1811x/badges/large)](https://www.codewars.com/users/sergio1811x) 
 
 <br/>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sergio1811x&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+###[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sergio1811x&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 
