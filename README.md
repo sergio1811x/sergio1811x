@@ -1,6 +1,6 @@
-## <h1 align="center">Hi there, I'm <a href="https://github.com/sergio1811x/" target="_blank">Sergey</a> 
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">frontend developer from Russia 🇷🇺 , Saint-P</h3>
+## Hi there, I'm <a href="https://github.com/sergio1811x/" target="_blank">Sergey</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
+### frontend developer from Russia 🇷🇺 , Saint-P
 
 
 frontend developer
