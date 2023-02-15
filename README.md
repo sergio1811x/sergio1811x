@@ -1,5 +1,5 @@
 ### Hi there, I'm Sergey <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
-### Frontend developer from Russia 🇷🇺 , Saint-P
+#### Frontend developer from saint-petersburg, Russia
 
 <br/>
 
