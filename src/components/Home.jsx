@@ -18,8 +18,7 @@ export function Home({ light }) {
     window.addEventListener('resize', handleResizeWindow);
     return () => {
       window.removeEventListener('resize', handleResizeWindow);
-      console.log(document.getElementsByClassName('ball').length);
-      let lengthDiv = document.getElementsByClassName('ball').length;
+      let lengthDiv = document.getElementsByClassName('ball').length; //кол-во летающих обьектов
       if (lengthDiv > 60) {
         for (let i = 1; i < 51; i++) {
           document.getElementsByClassName('ball')[i].remove();
