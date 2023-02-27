@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './index.scss';
 
 export const Background = () => {
@@ -9,7 +9,9 @@ export const Background = () => {
     let ball = document.createElement('div');
     ball.classList.add('ball');
     ball.style.backgroundImage =
-      'url(' + require(`./images/img${Math.floor(Math.random() * 14)}.png`) + ')';
+      'url(' +
+      require(`../../assets/images/images_background/img${Math.floor(Math.random() * 14)}.png`) +
+      ')';
     ball.style.backgroundSize = 'cover';
     ball.style.backgroundRepeat = 'no-repeat';
     ball.style.backgroundPosition = 'center center';

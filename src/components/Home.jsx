@@ -13,9 +13,9 @@ export function Home({ light }) {
 
   useEffect(() => {
     setChecked(true);
-    document.title = 'Home';
     const handleResizeWindow = () => setWidth(window.innerWidth);
     window.addEventListener('resize', handleResizeWindow);
+
     return () => {
       window.removeEventListener('resize', handleResizeWindow);
       let lengthDiv = document.getElementsByClassName('ball').length; //кол-во летающих обьектов
@@ -25,10 +25,10 @@ export function Home({ light }) {
         }
       }
     };
-  }, [light]);
+  }, [light, width]);
 
   return (
-    <>
+    <div className={'home_wrapper'} id={'about'}>
       {width > breakpoint && <Background />}
       <Box sx={{ mt: 14 }}>
         <Container maxwidth="sm">
@@ -118,7 +118,7 @@ export function Home({ light }) {
           <Box sx={{ width: 200 }}></Box>
         </Container>
       </Box>
-    </>
+    </div>
   );
 }
 

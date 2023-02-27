@@ -1,6 +1,5 @@
-import './App.css';
 import React, { Suspense, useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import './styles/index.scss';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import { Loading } from './components/helpers/Loading';
@@ -9,30 +8,27 @@ import { themeDark, themeLight } from './components/helpers/ChangeTheme';
 import { Header } from './components/Header';
 import { Home } from './components/Home';
 import { Footer } from './components/Footer';
+import { PortfolioBlock } from './components/Portfolio';
+import { SkillsBlock } from './components/Skills';
 
 function App() {
-  const [light, setLight] = useState(false); // set light/dark theme
+  const [light, setLight] = useState(JSON.parse(localStorage.getItem('light'))); // set light/dark theme
+
+  if (!light) {
+    localStorage.setItem('light', JSON.stringify(false));
+  } else localStorage.setItem('light', JSON.stringify(true));
 
   return (
-    <div className="App">
+    <div>
       <ThemeProvider theme={light ? themeLight : themeDark}>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Header light={light} setLight={setLight} />
-                <main>
-                  <Home light={light} />
-                </main>
-              </>
-            }
-          />
-        </Routes>
+        <Header light={light} setLight={setLight} />
+        <Home light={light} />
+        <PortfolioBlock light={light} />
+        <SkillsBlock />
+        <Footer />
         <CssBaseline />
         <Suspense fallback={<Loading />}>
           <ScrollToTop />
-          <Footer />
         </Suspense>
       </ThemeProvider>
     </div>

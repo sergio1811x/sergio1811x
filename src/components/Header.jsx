@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import { AppBar, Container, Toolbar, IconButton, Button, Box } from '@mui/material';
 import Stack from '@mui/material/Stack';
-import { NavLink } from 'react-router-dom';
-import CottageOutlinedIcon from '@mui/icons-material/CottageOutlined';
-import TranslateIcon from '@mui/icons-material/Translate';
 import { styled, alpha } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
-import NightsStayOutlinedIcon from '@mui/icons-material/NightsStayOutlined';
-import WarningAmberIcon from '@mui/icons-material/WarningAmber';
+import TerminalIcon from '@mui/icons-material/Terminal';
+import FaceIcon from '@mui/icons-material/Face';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import BadgeIcon from '@mui/icons-material/Badge';
+
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import ListItemText from '@mui/material/ListItemText';
-import { Link as RouterLink } from 'react-router-dom';
 import Divider from '@mui/material/Divider';
 import { ChangeDarkOrLight } from './helpers/ChangeTheme';
 import Grid from '@mui/material/Grid';
@@ -109,23 +109,32 @@ export function Header({ light, setLight }) {
                     'aria-labelledby': 'basic-button',
                   }}
                 >
-                  <MenuItem component={RouterLink} to="/" onClick={handleClose}>
-                    <CottageOutlinedIcon />
-                    <ListItemText>Home</ListItemText>
-                  </MenuItem>
+                  <Link to={'about'} spy={true} smooth={true} offset={-130} duration={1000}>
+                    <MenuItem onClick={handleClose}>
+                      <FaceIcon />
+                      <ListItemText>About me</ListItemText>
+                    </MenuItem>
+                  </Link>
                   <Divider />
-                  <MenuItem component={RouterLink} to="/link" onClick={handleClose}>
-                    <NightsStayOutlinedIcon />
-                    <ListItemText>Link</ListItemText>
-                  </MenuItem>
-                  <MenuItem component={RouterLink} to="/link" onClick={handleClose}>
-                    <TranslateIcon />
-                    <ListItemText>Link</ListItemText>
-                  </MenuItem>
-                  <MenuItem component={RouterLink} to="/404" onClick={handleClose}>
-                    <WarningAmberIcon />
-                    <ListItemText>Link</ListItemText>
-                  </MenuItem>
+                  <Link to={'portfolio'} spy={true} smooth={true} offset={-55} duration={1000}>
+                    <MenuItem onClick={handleClose}>
+                      <BadgeIcon />
+                      <ListItemText>Portfolio</ListItemText>
+                    </MenuItem>
+                  </Link>
+                  <Link to={'skills'} spy={true} smooth={true} offset={-110} duration={1000}>
+                    <MenuItem onClick={handleClose}>
+                      <TerminalIcon />
+                      <ListItemText>Skills</ListItemText>
+                    </MenuItem>
+                  </Link>
+
+                  <Link to={'footer'} spy={true} smooth={true} offset={-70} duration={1000}>
+                    <MenuItem onClick={handleClose}>
+                      <AlternateEmailIcon />
+                      <ListItemText>Contacts</ListItemText>
+                    </MenuItem>
+                  </Link>
                 </StyledMenu>
               </Box>
               <Box sx={{ mr: -2 }}>
@@ -146,21 +155,26 @@ export function Header({ light, setLight }) {
           <Toolbar>
             <Box sx={{ flexGrow: 1 }}>
               <Stack direction="r2312321ow" spacing={1} justifyContent="center">
-                <NavLink to="/" style={{ textDecoration: 'none' }}>
-                  <ThemeButton startIcon={<CottageOutlinedIcon style={{ fontSize: 24 }} />}>
-                    Home
+                <Link to={'about'} spy={true} smooth={true} offset={-320} duration={1000}>
+                  <ThemeButton startIcon={<FaceIcon style={{ fontSize: 40 }} />}>
+                    About me
                   </ThemeButton>
-                </NavLink>
-                <NavLink to="/Link" style={{ textDecoration: 'none' }}>
-                  <ThemeButton startIcon={<NightsStayOutlinedIcon style={{ fontSize: 24 }} />}>
-                    Link
+                </Link>
+                <Link to={'portfolio'} spy={true} smooth={true} offset={-58} duration={1000}>
+                  <ThemeButton startIcon={<BadgeIcon style={{ fontSize: 40 }} />}>
+                    Portfolio
                   </ThemeButton>
-                </NavLink>
-                <NavLink to="/Link" style={{ textDecoration: 'none' }}>
-                  <ThemeButton startIcon={<WarningAmberIcon style={{ fontSize: 24 }} />}>
-                    Link
+                </Link>
+                <Link to={'skills'} spy={true} smooth={true} offset={-200} duration={1000}>
+                  <ThemeButton startIcon={<TerminalIcon style={{ fontSize: 40 }} />}>
+                    Skills
                   </ThemeButton>
-                </NavLink>
+                </Link>
+                <Link to={'footer'} spy={true} smooth={true} offset={-80} duration={1000}>
+                  <ThemeButton startIcon={<AlternateEmailIcon style={{ fontSize: 40 }} />}>
+                    Contacts
+                  </ThemeButton>
+                </Link>
               </Stack>
             </Box>
           </Toolbar>

@@ -1,0 +1,34 @@
+
+[{
+  "title": "Google Keep clone",
+  "description": "React, TypeScript, SCSS, Firebase",
+  "img": "./assets/images/screenshot/Keep.png",
+  "url": "https://keep-45d61.web.app/",
+  "git": "https://github.com/sergio1811x/google_keep_clone"
+
+},
+
+  {
+    "title": "Cryptocurrencies and News",
+    "description": "React, Typescript, RTK Query, Antd Desing",
+    "img": "./assets/images/screenshot/Cryptocurrencie.png",
+    "url": "https://sergio1811x.github.io/project_crypto/" ,
+    "git": "https://github.com/sergio1811x/project_crypto"
+  }
+,
+  {
+    "title": "Sushi delivery",
+    "description": "React, TypeScript, Redux-Toolkit, SCSS, Axios",
+    "img": "./assets/images/screenshot/Sushi.png",
+    "url": "https://github.com/sergio1811x/project_sushi",
+    "git": "https://github.com/sergio1811x/project_sushi"
+  }
+,
+  {
+    "title": "Portfolio",
+    "description": "React, JavaScript, SCSS, Material-UI",
+    "img": "./assets/images/screenshot/Portfolio.png",
+    "url": "https://sergio1811x.github.io/sergio1811x/" ,
+    "git": "https://github.com/sergio1811x/sergio1811x/tree/master"
+  }
+]
